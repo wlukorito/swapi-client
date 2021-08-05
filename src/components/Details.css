@@ -1,0 +1,43 @@
+.uname i {
+    font-weight: 200;
+}
+
+.usummary {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.detail-card {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 15px 20px;
+    padding: 15px 50px;
+}
+
+.detail-card h6 {
+    text-transform: capitalize;
+}
+
+.detail-card .lead {
+    text-transform: uppercase;
+}
+
+.homeworld {
+    font-family: 'Lato', sans-serif;
+}
+
+.homeworld .fas {
+    font-weight: 200;
+    margin: 0px 10px 0px 0px;
+}
+
+#homeworld-details, #homeworld {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#homeworld-details .col-6, #homeworld-details .col-sm-3 {
+    border: 1px solid #fff;
+    padding: 10px;
+}

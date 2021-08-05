@@ -1,0 +1,14 @@
+.people-wrapper {
+    /* max-height: 80vh; */
+    margin-bottom: 20px;
+}
+
+#pagination .fas {
+    margin: 0px 10px;
+}
+
+#pagination {
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
