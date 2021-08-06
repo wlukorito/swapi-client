@@ -36,7 +36,8 @@ const People: FC = () => {
                 people: data.people,
             });
         }
-    }, [ready, error, data]);
+        
+    }, [ready, error, data]); // eslint-disable-line react-hooks/exhaustive-deps
 
     if (!ready) {
         return <Loader />;
