@@ -10,7 +10,7 @@ import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
 const client = new ApolloClient({
-    uri: 'http://localhost:4000/',
+    uri: 'https://dry-bastion-38130.herokuapp.com/',
     cache: new InMemoryCache(),
 });
 
