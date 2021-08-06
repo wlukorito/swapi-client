@@ -23,6 +23,8 @@ const People: FC = () => {
         variables: { page: currentPage },
     });
 
+    const pageCount = Math.ceil(parseInt(globalState.people.count) / 10);
+
     useEffect(() => {
         if (!loading) {
             setReady(true);
@@ -71,7 +73,7 @@ const People: FC = () => {
                         </button>
 
                         {/* Generate page numbers */}
-                        {[...Array(9)].map((val, idx) => (
+                        {[...Array(pageCount)].map((val, idx) => (
                             <button
                                 type="button"
                                 className={
